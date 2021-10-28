@@ -1,0 +1,140 @@
+.carousel {
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.mod-hr {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.watch-card {
+    display: flex;
+    padding: 100px;
+}
+
+li>a:hover {
+    background-color: black;
+}
+
+.email-form {
+    width: 80%;
+}
+
+
+/* .header-text {
+    display: none;
+} */
+
+@media only screen and (min-width: 1025px) {
+    .header-text {
+        /* display: none; */
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-item {
+        margin-left: 10px;
+    }
+    .carousel {
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel-item img {
+        height: 40vh;
+    }
+    .carousel-item {
+        height: 40vh;
+    }
+    .carousel-caption {
+        /* padding-top: 30px; */
+        display: block !important;
+    }
+    .header-text {
+        float: right;
+        margin: 160px;
+    }
+    .watch-card {
+        display: table;
+    }
+    .card {
+        padding: 15px;
+    }
+    .popover-link {
+        float: right;
+        display: flex;
+    }
+    .mod-hr {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contact-info {
+        order: 1;
+    }
+    .contact-form {
+        order: 2;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    .navbar-item {
+        margin-left: 15px;
+    }
+    .carousel {
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel-item img {
+        height: 40vh;
+    }
+    .carousel-item {
+        height: 40vh;
+    }
+    .header-text {
+        display: contents;
+        text-align: right;
+        /* display: none; */
+        /* margin-top: 50px; */
+    }
+    .card {
+        padding: 15px;
+    }
+    .popover-link {
+        float: right;
+        display: flex;
+    }
+    .slider-text {
+        display: none;
+    }
+    .mod-hr {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contact-info {
+        order: 2;
+    }
+    .contact-form {
+        order: 1;
+    }
+}
